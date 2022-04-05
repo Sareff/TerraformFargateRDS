@@ -1,0 +1,13 @@
+[
+  {
+    "name": "web-53-task",
+    "image": "680148905571.dkr.ecr.eu-central-1.amazonaws.com/web-53:latest",
+    "portMappings": [
+      {
+        "containerPort": 8080,
+        "protocol": "http"
+      }
+    ],
+    "essential": true
+  }
+]
